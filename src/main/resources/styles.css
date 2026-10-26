@@ -1,0 +1,59 @@
+.root {
+    -fx-background-color: #0a1220;
+    -fx-text-fill: #f4f7fb;
+}
+.label { -fx-text-fill: #f4f7fb; }
+.muted { -fx-text-fill: #91a1b6; -fx-font-size: 13px; }
+.brand-logo { -fx-alignment: center-left; }
+.brand-symbol {
+    -fx-background-color: #39b6c9; -fx-background-radius: 10px;
+    -fx-min-width: 42px; -fx-min-height: 42px; -fx-pref-width: 42px; -fx-pref-height: 42px;
+    -fx-alignment: center; -fx-text-fill: #071723; -fx-font-size: 25px; -fx-font-weight: bold;
+}
+.brand-wordmark { -fx-alignment: center-left; }
+.brand-name { -fx-text-fill: #f4f7fb; -fx-font-size: 17px; -fx-font-weight: bold; -fx-letter-spacing: 1.6px; }
+.brand-descriptor { -fx-text-fill: #91a1b6; -fx-font-size: 9px; -fx-font-weight: bold; -fx-letter-spacing: 3px; }
+.brand-logo-compact .brand-symbol {
+    -fx-background-radius: 8px; -fx-min-width: 34px; -fx-min-height: 34px;
+    -fx-pref-width: 34px; -fx-pref-height: 34px; -fx-font-size: 20px;
+}
+.brand-logo-compact .brand-name { -fx-font-size: 13px; -fx-letter-spacing: 1.3px; }
+.brand-logo-compact .brand-descriptor { -fx-font-size: 8px; -fx-letter-spacing: 2.5px; }
+.auth-title { -fx-font-size: 30px; -fx-font-weight: bold; }
+.hero-panel { -fx-background-color: linear-gradient(to bottom right, #142b43, #102238); -fx-background-radius: 24px; -fx-min-height: 520px; }
+.hero-title { -fx-font-size: 48px; -fx-font-weight: bold; -fx-line-spacing: 4px; }
+.eyebrow { -fx-text-fill: #72d3e3; -fx-font-size: 11px; -fx-font-weight: bold; -fx-letter-spacing: 2px; }
+.field-label { -fx-text-fill: #aab7c8; -fx-font-size: 10px; -fx-font-weight: bold; -fx-letter-spacing: 1px; }
+.text-field, .password-field {
+    -fx-background-color: #111d2d; -fx-text-fill: #f4f7fb; -fx-prompt-text-fill: #6f8095;
+    -fx-background-radius: 10px; -fx-border-color: #26374b; -fx-border-radius: 10px;
+    -fx-padding: 13px 14px; -fx-font-size: 13px;
+}
+.text-field:focused, .password-field:focused { -fx-border-color: #48bdcf; }
+.primary-button {
+    -fx-background-color: #39b6c9; -fx-text-fill: #061520; -fx-font-size: 13px;
+    -fx-font-weight: bold; -fx-padding: 13px 20px; -fx-background-radius: 10px; -fx-cursor: hand;
+}
+.primary-button:hover { -fx-background-color: #58cede; }
+.primary-button:disabled { -fx-opacity: .5; }
+.text-button { -fx-background-color: transparent; -fx-text-fill: #72d3e3; -fx-padding: 8px 0; -fx-cursor: hand; }
+.message { -fx-text-fill: #f5bb75; -fx-font-size: 12px; -fx-wrap-text: true; }
+.success-text { -fx-text-fill: #70d9a7; -fx-font-size: 12px; }
+.error-text { -fx-text-fill: #ff8f91; -fx-font-size: 12px; -fx-wrap-text: true; }
+.sidebar { -fx-background-color: #0d1928; -fx-pref-width: 242px; }
+.profile-label { -fx-text-fill: #aab7c8; -fx-font-size: 12px; -fx-line-spacing: 6px; }
+.sidebar .separator .line { -fx-border-color: #203147; }
+.nav-button { -fx-background-color: transparent; -fx-text-fill: #aab7c8; -fx-padding: 12px 14px; -fx-background-radius: 9px; -fx-cursor: hand; }
+.nav-button:hover { -fx-background-color: #17283a; -fx-text-fill: #72d3e3; }
+.scroll-pane, .scroll-pane > .viewport { -fx-background: #0a1220; -fx-background-color: #0a1220; }
+.section-title { -fx-font-size: 25px; -fx-font-weight: bold; }
+.balance-card { -fx-background-color: linear-gradient(to right, #173652, #16404b); -fx-background-radius: 18px; -fx-padding: 28px; }
+.balance-value { -fx-font-size: 38px; -fx-font-weight: bold; }
+.balance-caption { -fx-text-fill: #b2c4d4; -fx-font-size: 12px; }
+.action-button { -fx-background-color: #142236; -fx-text-fill: #eaf1f8; -fx-background-radius: 10px; -fx-padding: 13px 17px; -fx-cursor: hand; }
+.action-button:hover { -fx-background-color: #1d344b; }
+.transaction-row { -fx-background-color: #101c2b; -fx-background-radius: 12px; -fx-padding: 16px; }
+.transaction-positive { -fx-text-fill: #71d7a3; -fx-font-weight: bold; }
+.transaction-negative { -fx-text-fill: #f29a9c; -fx-font-weight: bold; }
+.form-card { -fx-background-color: #101c2b; -fx-background-radius: 16px; -fx-padding: 24px; }
+.separator .line { -fx-border-color: #223249; }
